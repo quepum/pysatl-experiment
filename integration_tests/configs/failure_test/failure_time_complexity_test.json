@@ -1,0 +1,27 @@
+{
+  "name": "failure_time_complexity_test",
+  "config": {
+    "generator_type": "standard",
+    "executor_type": "standard",
+    "report_builder_type": "standard",
+    "run_mode": "reuse",
+    "report_mode": "with-chart",
+    "storage_connection": "C:\\Users\\\u0410\u043b\u0438\u043d\u0430\\PycharmProjects\\pysatl-experiment\\.storage\\failure_res.sqlite",
+    "experiment_type": "time_complexity",
+    "hypothesis": "normal",
+    "criteria": [
+      {
+        "criterion_code": "JB",
+        "parameters": []
+      }
+    ],
+    "monte_carlo_count": 1000,
+    "sample_sizes": [
+      100,
+      200,
+      300,
+      500,
+      1000
+    ]
+  }
+}

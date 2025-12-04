@@ -1,0 +1,49 @@
+{
+  "name": "db_critical_value_test",
+  "config": {
+    "experiment_type": "critical_value",
+    "generator_type": "standard",
+    "executor_type": "standard",
+    "report_builder_type": "standard",
+    "run_mode": "reuse",
+    "report_mode": "with-chart",
+    "hypothesis": "normal",
+    "criteria": [
+      {
+        "criterion_code": "KS",
+        "parameters": []
+      },
+      {
+        "criterion_code": "AD",
+        "parameters": []
+      },
+      {
+        "criterion_code": "SW",
+        "parameters": []
+      },
+      {
+        "criterion_code": "CVM",
+        "parameters": []
+      },
+      {
+        "criterion_code": "JB",
+        "parameters": []
+      }
+    ],
+    "sample_sizes": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      1000
+    ],
+    "monte_carlo_count": 1000,
+    "significance_levels": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "storage_connection": "C:\\Users\\\u0410\u043b\u0438\u043d\u0430\\PycharmProjects\\pysatl-experiment\\.storage\\db_res.sqlite"
+  }
+}

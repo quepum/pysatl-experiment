@@ -1,0 +1,56 @@
+{
+  "name": "stress_power_test",
+  "config": {
+    "generator_type": "standard",
+    "executor_type": "standard",
+    "report_builder_type": "standard",
+    "run_mode": "reuse",
+    "report_mode": "with-chart",
+    "experiment_type": "power",
+    "hypothesis": "normal",
+    "criteria": [
+      {
+        "criterion_code": "KS",
+        "parameters": []
+      },
+      {
+        "criterion_code": "AD",
+        "parameters": []
+      },
+      {
+        "criterion_code": "SW",
+        "parameters": []
+      }
+    ],
+    "sample_sizes": [
+      100,
+      200,
+      300,
+      400,
+      500
+    ],
+    "monte_carlo_count": 1000,
+    "significance_levels": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "storage_connection": "C:\\Users\\\u0410\u043b\u0438\u043d\u0430\\PycharmProjects\\pysatl-experiment1\\.storage\\res.sqlite",
+    "alternatives": [
+      {
+        "generator_name": "GAMMAGENERATOR",
+        "parameters": [
+          0.5,
+          1.0
+        ]
+      },
+      {
+        "generator_name": "WEIBULLGENERATOR",
+        "parameters": [
+          1.0,
+          2.0
+        ]
+      }
+    ]
+  }
+}
