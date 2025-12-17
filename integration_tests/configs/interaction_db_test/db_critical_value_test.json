@@ -6,6 +6,7 @@
     "executor_type": "standard",
     "report_builder_type": "standard",
     "run_mode": "reuse",
+    "parallel_workers": 8,
     "report_mode": "with-chart",
     "hypothesis": "normal",
     "criteria": [
@@ -31,11 +32,7 @@
       }
     ],
     "sample_sizes": [
-      100,
       200,
-      300,
-      400,
-      500,
       1000
     ],
     "monte_carlo_count": 1000,

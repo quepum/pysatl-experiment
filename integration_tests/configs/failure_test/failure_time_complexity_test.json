@@ -5,6 +5,7 @@
     "executor_type": "standard",
     "report_builder_type": "standard",
     "run_mode": "reuse",
+    "parallel_workers": 8,
     "report_mode": "with-chart",
     "storage_connection": "C:\\Users\\\u0410\u043b\u0438\u043d\u0430\\PycharmProjects\\pysatl-experiment\\.storage\\failure_res.sqlite",
     "experiment_type": "time_complexity",
